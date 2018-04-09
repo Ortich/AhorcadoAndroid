@@ -307,14 +307,15 @@
                 android:text="W"
                 android:textColor="@android:color/darker_gray" />
 
-            <Button
+            <ImageButton
+                android:id="@+id/buttonReset"
                 android:layout_width="0dp"
+                android:minWidth="75dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/background_dark"
-                android:text="D"
-                android:textColor="@android:color/darker_gray"
-                android:visibility="invisible" />
+                android:onClick="botonReset"
+                android:src="@android:drawable/ic_delete" />
 
             <Button
                 android:id="@+id/buttonX"
